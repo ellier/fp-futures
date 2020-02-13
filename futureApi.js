@@ -46,7 +46,7 @@ const run = (ids) => {
 		// us to avoid errors when null or the wrong data is present.
 		return  Future.coalesce (S.Left) (S.Right) (
 										S.pipe([
-											S.map(e => e.data),
+											S.map(S.prop('data')),
 											S.chain( Future.after(WAIT) ) // We use Future.after to delay the next request
 										])(fPromise)
 									);
