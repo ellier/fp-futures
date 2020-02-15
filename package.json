@@ -12,8 +12,7 @@
     "axios": "^0.19.2",
     "fluture": "^12.1.1",
     "fluture-sanctuary-types": "^5.0.0",
-    "sanctuary": "^3.0.0",
-    "sanctuary-def": "^0.21.1"
+    "sanctuary": "^3.0.0"
   },
   "devDependencies": {
     "jest": "^25.1.0"
